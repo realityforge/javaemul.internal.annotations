@@ -34,16 +34,22 @@ public @interface SpecializeMethod {
 
   /**
    * List of parameter types, matched via assignability.
+   *
+   * @return the List of parameter types, matched via assignability.
    */
   Class<?>[] params();
 
   /**
    * List of return types to match, or null if you don't care.
+   *
+   * @return the List of return types to match, or null if you don't care.
    */
   Class<?> returns() default ANY.class;
 
   /**
    * The name of the method to target. It must have a signature matching to the {@link #params()}.
+   *
+   * @return the name of the method to target. It must have a signature matching to the {@link #params()}.
    */
   String target();
 }
