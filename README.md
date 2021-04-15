@@ -17,7 +17,7 @@ The Maven dependency is:
 <dependency>
   <groupId>org.realityforge.javaemul.internal.annotations</groupId>
   <artifactId>javaemul.internal.annotations</artifactId>
-  <version>0.00</version>
+  <version>0.01</version>
 </dependency>
 ```
 
